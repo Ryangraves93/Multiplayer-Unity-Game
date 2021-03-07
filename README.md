@@ -9,7 +9,7 @@ score to a leaderboard and rewarding players with items from a loot table pulled
 
 ## AWS Lambda
 
-The project connect to AWS Lambda to manipulate some player data and return the data to the request. The connection is established through a [web socket library](https://github.com/endel/NativeWebSocket)
+The project connects to AWS Lambda to manipulate some player data and return the data to the request. The connection is established through a [web socket library](https://github.com/endel/NativeWebSocket)
 which allows for a consistent connection. The application sends a request to AWS through the API gateway route and triggers the function to increment the player score.
 
 ## Photon Multiplayer Framework
